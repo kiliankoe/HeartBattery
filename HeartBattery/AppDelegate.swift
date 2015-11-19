@@ -12,6 +12,10 @@ import SwiftyTimer
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 	
+	let totalHeartCount = 10
+	let heartWidth = 18.0
+	let heartHeight = 16.0
+	
 	@IBOutlet weak var statusMenu: NSMenu!
 	let statusItem = NSStatusBar.systemStatusBar().statusItemWithLength(NSVariableStatusItemLength)
 	
@@ -24,7 +28,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 		
 		updateStatusBar()
 		
-		NSTimer.every(5.minutes) {
+		NSTimer.every(5.minutes) { [unowned self] in
 			self.updateStatusBar()
 		}
 	}
@@ -41,23 +45,28 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 		battery.close()
 		
 		// How many hearts do we need?
-		let totalHeartCount = 10
 		let fullHeartCount = Int(round(charge/Double(totalHeartCount)))
-		let emptyHeartCount = totalHeartCount - fullHeartCount
 		
-		let heart_full = NSImage(named: "heart_full")
-		let heart_empty = NSImage(named: "heart_empty")
-	
-//		let resultImage = NSImage(size: CGSizeMake())
-		print("FULL: \(fullHeartCount)0%")
-		var title = ""
-		for _ in 0..<fullHeartCount {
-			title += "❤️"
+		// Composite a single image to display in statusbar
+		let heartFull = NSImage(named: "heart_full")!
+		let heartEmpty = NSImage(named: "heart_empty")!
+		
+		let size = CGSizeMake(CGFloat((Int(heartWidth)+2)*totalHeartCount), CGFloat(heartHeight))
+		let icon = NSImage(size: size)
+		icon.lockFocus()
+		for i in 0..<fullHeartCount {
+			var rect = NSZeroRect
+			rect.size = CGSizeMake(CGFloat(heartWidth), CGFloat(heartHeight))
+			heartFull.drawAtPoint(CGPointMake((CGFloat(i*Int((2+heartWidth)))), 0), fromRect: rect, operation: NSCompositingOperation.CompositeSourceOver, fraction: 1.0)
 		}
-		for _ in 0..<emptyHeartCount {
-			title += "💔"
+		for i in fullHeartCount..<totalHeartCount {
+			var rect = NSZeroRect
+			rect.size = CGSizeMake(CGFloat(heartWidth), CGFloat(heartHeight))
+			heartEmpty.drawAtPoint(CGPointMake((CGFloat(i*Int((2+heartWidth)))), 0), fromRect: rect, operation: NSCompositingOperation.CompositeSourceOver, fraction: 1.0)
 		}
-		statusItem.title = title
+		icon.unlockFocus()
+		
+		statusItem.image = icon // FIXME: .image is deprecated...
 	}
 
 }
