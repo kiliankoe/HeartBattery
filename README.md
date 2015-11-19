@@ -6,6 +6,6 @@ Download it [here](https://github.com/kiliankoe/HeartBattery/releases/latest).
 
 Cheap screenshot (because not having one stinks):
 
-![](https://cloud.githubusercontent.com/assets/2625584/11283300/527a7804-8f04-11e5-863d-9a0082d61c2a.png)
+![](https://cloud.githubusercontent.com/assets/2625584/11286088/4b4d46d8-8f13-11e5-887c-7860b696fbb0.gif)
 
 This app runs on OS X 10.10+. Use something like [Bartender](http://www.macbartender.com) to reorder all your menubar items and optionally hide the system battery state as well. 
