@@ -11,11 +11,11 @@
 		390045371BFDDC140072CF4A /* IOReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390045361BFDDC140072CF4A /* IOReturn.swift */; };
 		390045391BFDDC480072CF4A /* Battery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390045381BFDDC480072CF4A /* Battery.swift */; };
 		396939C41BFDBEC0007B582B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396939C31BFDBEC0007B582B /* AppDelegate.swift */; };
-		396939C61BFDBEC0007B582B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396939C51BFDBEC0007B582B /* ViewController.swift */; };
 		396939C81BFDBEC0007B582B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 396939C71BFDBEC0007B582B /* Assets.xcassets */; };
 		396939CB1BFDBEC0007B582B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396939C91BFDBEC0007B582B /* Main.storyboard */; };
 		396939D61BFDBEC0007B582B /* HeartBatteryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396939D51BFDBEC0007B582B /* HeartBatteryTests.swift */; };
 		396939E11BFDBEC0007B582B /* HeartBatteryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396939E01BFDBEC0007B582B /* HeartBatteryUITests.swift */; };
+		F9A47E3DD9349F3F573B2076 /* Pods_HeartBattery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1DC72491C51696EA348C853 /* Pods_HeartBattery.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B8749606417778DA4A530ED /* Pods-HeartBattery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeartBattery.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeartBattery/Pods-HeartBattery.release.xcconfig"; sourceTree = "<group>"; };
 		390045281BFDC6280072CF4A /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
-		3900452A1BFDCAD30072CF4A /* HeartBattery-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HeartBattery-Bridging-Header.h"; sourceTree = "<group>"; };
 		390045361BFDDC140072CF4A /* IOReturn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOReturn.swift; sourceTree = "<group>"; };
 		390045381BFDDC480072CF4A /* Battery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Battery.swift; sourceTree = "<group>"; };
 		396939C01BFDBEC0007B582B /* HeartBattery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartBattery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		396939C31BFDBEC0007B582B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		396939C51BFDBEC0007B582B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		396939C71BFDBEC0007B582B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		396939CA1BFDBEC0007B582B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		396939CC1BFDBEC0007B582B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,6 +51,8 @@
 		396939DC1BFDBEC0007B582B /* HeartBatteryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartBatteryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		396939E01BFDBEC0007B582B /* HeartBatteryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartBatteryUITests.swift; sourceTree = "<group>"; };
 		396939E21BFDBEC0007B582B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F89957930165234AF3F69BF /* Pods-HeartBattery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeartBattery.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeartBattery/Pods-HeartBattery.debug.xcconfig"; sourceTree = "<group>"; };
+		A1DC72491C51696EA348C853 /* Pods_HeartBattery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeartBattery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				390045291BFDC6280072CF4A /* IOKit.framework in Frameworks */,
+				F9A47E3DD9349F3F573B2076 /* Pods_HeartBattery.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +82,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		196291E4CBAF23E75BAF5C17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1DC72491C51696EA348C853 /* Pods_HeartBattery.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		287E871BC5C5A19BD916CA35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F89957930165234AF3F69BF /* Pods-HeartBattery.debug.xcconfig */,
+				2B8749606417778DA4A530ED /* Pods-HeartBattery.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3900453A1BFDDC500072CF4A /* SystemKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +116,8 @@
 				396939D41BFDBEC0007B582B /* HeartBatteryTests */,
 				396939DF1BFDBEC0007B582B /* HeartBatteryUITests */,
 				396939C11BFDBEC0007B582B /* Products */,
+				287E871BC5C5A19BD916CA35 /* Pods */,
+				196291E4CBAF23E75BAF5C17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,11 +136,9 @@
 			children = (
 				3900453A1BFDDC500072CF4A /* SystemKit */,
 				396939C31BFDBEC0007B582B /* AppDelegate.swift */,
-				396939C51BFDBEC0007B582B /* ViewController.swift */,
 				396939C71BFDBEC0007B582B /* Assets.xcassets */,
 				396939C91BFDBEC0007B582B /* Main.storyboard */,
 				396939CC1BFDBEC0007B582B /* Info.plist */,
-				3900452A1BFDCAD30072CF4A /* HeartBattery-Bridging-Header.h */,
 			);
 			path = HeartBattery;
 			sourceTree = "<group>";
@@ -149,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 396939E51BFDBEC0007B582B /* Build configuration list for PBXNativeTarget "HeartBattery" */;
 			buildPhases = (
+				E31BC444EAED6E4CE2521D3F /* Check Pods Manifest.lock */,
 				396939BC1BFDBEC0007B582B /* Sources */,
 				396939BD1BFDBEC0007B582B /* Frameworks */,
 				396939BE1BFDBEC0007B582B /* Resources */,
+				D0AC1DCC407EC6A4AEF88EF2 /* Embed Pods Frameworks */,
+				17B619302051D09F0706C3EC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -267,13 +289,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17B619302051D09F0706C3EC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeartBattery/Pods-HeartBattery-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0AC1DCC407EC6A4AEF88EF2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HeartBattery/Pods-HeartBattery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E31BC444EAED6E4CE2521D3F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		396939BC1BFDBEC0007B582B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				390045371BFDDC140072CF4A /* IOReturn.swift in Sources */,
-				396939C61BFDBEC0007B582B /* ViewController.swift in Sources */,
 				396939C41BFDBEC0007B582B /* AppDelegate.swift in Sources */,
 				390045391BFDDC480072CF4A /* Battery.swift in Sources */,
 			);
@@ -404,30 +473,36 @@
 		};
 		396939E61BFDBEC0007B582B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F89957930165234AF3F69BF /* Pods-HeartBattery.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = HeartBattery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = io.kilian.HeartBattery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "HeartBattery/HeartBattery-Bridging-Header.h";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		396939E71BFDBEC0007B582B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B8749606417778DA4A530ED /* Pods-HeartBattery.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = HeartBattery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = io.kilian.HeartBattery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "HeartBattery/HeartBattery-Bridging-Header.h";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
