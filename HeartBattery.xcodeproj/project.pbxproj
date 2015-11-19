@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		396939C41BFDBEC0007B582B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396939C31BFDBEC0007B582B /* AppDelegate.swift */; };
+		396939C61BFDBEC0007B582B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396939C51BFDBEC0007B582B /* ViewController.swift */; };
+		396939C81BFDBEC0007B582B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 396939C71BFDBEC0007B582B /* Assets.xcassets */; };
+		396939CB1BFDBEC0007B582B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396939C91BFDBEC0007B582B /* Main.storyboard */; };
+		396939D61BFDBEC0007B582B /* HeartBatteryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396939D51BFDBEC0007B582B /* HeartBatteryTests.swift */; };
+		396939E11BFDBEC0007B582B /* HeartBatteryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396939E01BFDBEC0007B582B /* HeartBatteryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		396939D21BFDBEC0007B582B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 396939B81BFDBEC0007B582B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 396939BF1BFDBEC0007B582B;
+			remoteInfo = HeartBattery;
+		};
+		396939DD1BFDBEC0007B582B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 396939B81BFDBEC0007B582B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 396939BF1BFDBEC0007B582B;
+			remoteInfo = HeartBattery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		396939C01BFDBEC0007B582B /* HeartBattery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartBattery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		396939C31BFDBEC0007B582B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		396939C51BFDBEC0007B582B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		396939C71BFDBEC0007B582B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		396939CA1BFDBEC0007B582B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		396939CC1BFDBEC0007B582B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		396939D11BFDBEC0007B582B /* HeartBatteryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartBatteryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		396939D51BFDBEC0007B582B /* HeartBatteryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartBatteryTests.swift; sourceTree = "<group>"; };
+		396939D71BFDBEC0007B582B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		396939DC1BFDBEC0007B582B /* HeartBatteryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartBatteryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		396939E01BFDBEC0007B582B /* HeartBatteryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartBatteryUITests.swift; sourceTree = "<group>"; };
+		396939E21BFDBEC0007B582B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		396939BD1BFDBEC0007B582B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396939CE1BFDBEC0007B582B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396939D91BFDBEC0007B582B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		396939B71BFDBEC0007B582B = {
+			isa = PBXGroup;
+			children = (
+				396939C21BFDBEC0007B582B /* HeartBattery */,
+				396939D41BFDBEC0007B582B /* HeartBatteryTests */,
+				396939DF1BFDBEC0007B582B /* HeartBatteryUITests */,
+				396939C11BFDBEC0007B582B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		396939C11BFDBEC0007B582B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				396939C01BFDBEC0007B582B /* HeartBattery.app */,
+				396939D11BFDBEC0007B582B /* HeartBatteryTests.xctest */,
+				396939DC1BFDBEC0007B582B /* HeartBatteryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		396939C21BFDBEC0007B582B /* HeartBattery */ = {
+			isa = PBXGroup;
+			children = (
+				396939C31BFDBEC0007B582B /* AppDelegate.swift */,
+				396939C51BFDBEC0007B582B /* ViewController.swift */,
+				396939C71BFDBEC0007B582B /* Assets.xcassets */,
+				396939C91BFDBEC0007B582B /* Main.storyboard */,
+				396939CC1BFDBEC0007B582B /* Info.plist */,
+			);
+			path = HeartBattery;
+			sourceTree = "<group>";
+		};
+		396939D41BFDBEC0007B582B /* HeartBatteryTests */ = {
+			isa = PBXGroup;
+			children = (
+				396939D51BFDBEC0007B582B /* HeartBatteryTests.swift */,
+				396939D71BFDBEC0007B582B /* Info.plist */,
+			);
+			path = HeartBatteryTests;
+			sourceTree = "<group>";
+		};
+		396939DF1BFDBEC0007B582B /* HeartBatteryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				396939E01BFDBEC0007B582B /* HeartBatteryUITests.swift */,
+				396939E21BFDBEC0007B582B /* Info.plist */,
+			);
+			path = HeartBatteryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		396939BF1BFDBEC0007B582B /* HeartBattery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396939E51BFDBEC0007B582B /* Build configuration list for PBXNativeTarget "HeartBattery" */;
+			buildPhases = (
+				396939BC1BFDBEC0007B582B /* Sources */,
+				396939BD1BFDBEC0007B582B /* Frameworks */,
+				396939BE1BFDBEC0007B582B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeartBattery;
+			productName = HeartBattery;
+			productReference = 396939C01BFDBEC0007B582B /* HeartBattery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		396939D01BFDBEC0007B582B /* HeartBatteryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396939E81BFDBEC0007B582B /* Build configuration list for PBXNativeTarget "HeartBatteryTests" */;
+			buildPhases = (
+				396939CD1BFDBEC0007B582B /* Sources */,
+				396939CE1BFDBEC0007B582B /* Frameworks */,
+				396939CF1BFDBEC0007B582B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				396939D31BFDBEC0007B582B /* PBXTargetDependency */,
+			);
+			name = HeartBatteryTests;
+			productName = HeartBatteryTests;
+			productReference = 396939D11BFDBEC0007B582B /* HeartBatteryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		396939DB1BFDBEC0007B582B /* HeartBatteryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 396939EB1BFDBEC0007B582B /* Build configuration list for PBXNativeTarget "HeartBatteryUITests" */;
+			buildPhases = (
+				396939D81BFDBEC0007B582B /* Sources */,
+				396939D91BFDBEC0007B582B /* Frameworks */,
+				396939DA1BFDBEC0007B582B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				396939DE1BFDBEC0007B582B /* PBXTargetDependency */,
+			);
+			name = HeartBatteryUITests;
+			productName = HeartBatteryUITests;
+			productReference = 396939DC1BFDBEC0007B582B /* HeartBatteryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		396939B81BFDBEC0007B582B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Kilian Költzsch";
+				TargetAttributes = {
+					396939BF1BFDBEC0007B582B = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					396939D01BFDBEC0007B582B = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 396939BF1BFDBEC0007B582B;
+					};
+					396939DB1BFDBEC0007B582B = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 396939BF1BFDBEC0007B582B;
+					};
+				};
+			};
+			buildConfigurationList = 396939BB1BFDBEC0007B582B /* Build configuration list for PBXProject "HeartBattery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 396939B71BFDBEC0007B582B;
+			productRefGroup = 396939C11BFDBEC0007B582B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				396939BF1BFDBEC0007B582B /* HeartBattery */,
+				396939D01BFDBEC0007B582B /* HeartBatteryTests */,
+				396939DB1BFDBEC0007B582B /* HeartBatteryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		396939BE1BFDBEC0007B582B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396939C81BFDBEC0007B582B /* Assets.xcassets in Resources */,
+				396939CB1BFDBEC0007B582B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396939CF1BFDBEC0007B582B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396939DA1BFDBEC0007B582B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		396939BC1BFDBEC0007B582B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396939C61BFDBEC0007B582B /* ViewController.swift in Sources */,
+				396939C41BFDBEC0007B582B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396939CD1BFDBEC0007B582B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396939D61BFDBEC0007B582B /* HeartBatteryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396939D81BFDBEC0007B582B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				396939E11BFDBEC0007B582B /* HeartBatteryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		396939D31BFDBEC0007B582B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 396939BF1BFDBEC0007B582B /* HeartBattery */;
+			targetProxy = 396939D21BFDBEC0007B582B /* PBXContainerItemProxy */;
+		};
+		396939DE1BFDBEC0007B582B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 396939BF1BFDBEC0007B582B /* HeartBattery */;
+			targetProxy = 396939DD1BFDBEC0007B582B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		396939C91BFDBEC0007B582B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				396939CA1BFDBEC0007B582B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		396939E31BFDBEC0007B582B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		396939E41BFDBEC0007B582B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		396939E61BFDBEC0007B582B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HeartBattery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.kilian.HeartBattery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		396939E71BFDBEC0007B582B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HeartBattery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.kilian.HeartBattery;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		396939E91BFDBEC0007B582B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HeartBatteryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.kilian.HeartBatteryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartBattery.app/Contents/MacOS/HeartBattery";
+			};
+			name = Debug;
+		};
+		396939EA1BFDBEC0007B582B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HeartBatteryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.kilian.HeartBatteryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartBattery.app/Contents/MacOS/HeartBattery";
+			};
+			name = Release;
+		};
+		396939EC1BFDBEC0007B582B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HeartBatteryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.kilian.HeartBatteryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HeartBattery;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		396939ED1BFDBEC0007B582B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HeartBatteryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.kilian.HeartBatteryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HeartBattery;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		396939BB1BFDBEC0007B582B /* Build configuration list for PBXProject "HeartBattery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396939E31BFDBEC0007B582B /* Debug */,
+				396939E41BFDBEC0007B582B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		396939E51BFDBEC0007B582B /* Build configuration list for PBXNativeTarget "HeartBattery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396939E61BFDBEC0007B582B /* Debug */,
+				396939E71BFDBEC0007B582B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		396939E81BFDBEC0007B582B /* Build configuration list for PBXNativeTarget "HeartBatteryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396939E91BFDBEC0007B582B /* Debug */,
+				396939EA1BFDBEC0007B582B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		396939EB1BFDBEC0007B582B /* Build configuration list for PBXNativeTarget "HeartBatteryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				396939EC1BFDBEC0007B582B /* Debug */,
+				396939ED1BFDBEC0007B582B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 396939B81BFDBEC0007B582B /* Project object */;
+}
