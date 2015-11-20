@@ -1,10 +1,13 @@
 PODS:
+  - IYLoginItem (0.1)
   - SwiftyTimer (1.2.0)
 
 DEPENDENCIES:
+  - IYLoginItem
   - SwiftyTimer
 
 SPEC CHECKSUMS:
+  IYLoginItem: e57a86b39d3b9ab0e2fc033adedae01efafd9adf
   SwiftyTimer: 5453593e0aaacfb1611fb6986d257281140913bb
 
 COCOAPODS: 0.39.0

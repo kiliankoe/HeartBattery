@@ -647,16 +647,7 @@
                     </connections>
                 </customObject>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
-                <menu id="z5t-fi-Mnx">
-                    <items>
-                        <menuItem title="Quit" id="W6P-tl-aRy">
-                            <modifierMask key="keyEquivalentModifierMask"/>
-                            <connections>
-                                <action selector="quitClicked:" target="Voe-Tx-rLC" id="QxM-3J-EdZ"/>
-                            </connections>
-                        </menuItem>
-                    </items>
-                </menu>
+                <menu id="z5t-fi-Mnx"/>
             </objects>
             <point key="canvasLocation" x="75" y="0.0"/>
         </scene>

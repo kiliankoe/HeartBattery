@@ -10,6 +10,8 @@
 		390045291BFDC6280072CF4A /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 390045281BFDC6280072CF4A /* IOKit.framework */; };
 		390045371BFDDC140072CF4A /* IOReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390045361BFDDC140072CF4A /* IOReturn.swift */; };
 		390045391BFDDC480072CF4A /* Battery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390045381BFDDC480072CF4A /* Battery.swift */; };
+		394C01571BFE8BDB00759410 /* HBMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394C01561BFE8BDB00759410 /* HBMenuItem.swift */; };
+		394C01591BFE958700759410 /* HBBattery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394C01581BFE958700759410 /* HBBattery.swift */; };
 		396939C41BFDBEC0007B582B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396939C31BFDBEC0007B582B /* AppDelegate.swift */; };
 		396939C81BFDBEC0007B582B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 396939C71BFDBEC0007B582B /* Assets.xcassets */; };
 		396939CB1BFDBEC0007B582B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396939C91BFDBEC0007B582B /* Main.storyboard */; };
@@ -40,6 +42,8 @@
 		390045281BFDC6280072CF4A /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		390045361BFDDC140072CF4A /* IOReturn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOReturn.swift; sourceTree = "<group>"; };
 		390045381BFDDC480072CF4A /* Battery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Battery.swift; sourceTree = "<group>"; };
+		394C01561BFE8BDB00759410 /* HBMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBMenuItem.swift; sourceTree = "<group>"; };
+		394C01581BFE958700759410 /* HBBattery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBBattery.swift; sourceTree = "<group>"; };
 		396939C01BFDBEC0007B582B /* HeartBattery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartBattery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		396939C31BFDBEC0007B582B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		396939C71BFDBEC0007B582B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -136,6 +140,8 @@
 			children = (
 				3900453A1BFDDC500072CF4A /* SystemKit */,
 				396939C31BFDBEC0007B582B /* AppDelegate.swift */,
+				394C01581BFE958700759410 /* HBBattery.swift */,
+				394C01561BFE8BDB00759410 /* HBMenuItem.swift */,
 				396939C71BFDBEC0007B582B /* Assets.xcassets */,
 				396939C91BFDBEC0007B582B /* Main.storyboard */,
 				396939CC1BFDBEC0007B582B /* Info.plist */,
@@ -343,7 +349,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				390045371BFDDC140072CF4A /* IOReturn.swift in Sources */,
+				394C01571BFE8BDB00759410 /* HBMenuItem.swift in Sources */,
 				396939C41BFDBEC0007B582B /* AppDelegate.swift in Sources */,
+				394C01591BFE958700759410 /* HBBattery.swift in Sources */,
 				390045391BFDDC480072CF4A /* Battery.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

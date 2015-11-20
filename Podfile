@@ -3,4 +3,5 @@ use_frameworks!
 
 target 'HeartBattery' do
   pod 'SwiftyTimer'
+  pod 'IYLoginItem'
 end
