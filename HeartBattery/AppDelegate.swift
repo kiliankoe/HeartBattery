@@ -115,7 +115,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 		
 		// Composite a single image to display in statusbar
 		let heartFull = NSImage(named: "heart_full")!
-		let heartEmpty = NSImage(named: "heart_empty")!
+		let heartEmpty = NSImage(named: "Heart_Empty")!
 		
 		let size = CGSizeMake(CGFloat((Int(heartWidth)+2)*totalHeartCount), CGFloat(heartHeight))
 		let icon = NSImage(size: size)
